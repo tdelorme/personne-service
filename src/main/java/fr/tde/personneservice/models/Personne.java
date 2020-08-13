@@ -24,4 +24,7 @@ public class Personne {
 
     @Column
     private Long idUser;
+
+    @ManyToOne
+    private Groups groups;
 }
